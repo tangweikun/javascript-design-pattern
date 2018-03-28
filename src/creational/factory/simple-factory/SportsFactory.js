@@ -1,3 +1,5 @@
+// 通过实例化对象创建的
+
 // 产品抽象角色 <Product>
 function Basketball() {
   this.introduce = '篮球盛行于美国'
