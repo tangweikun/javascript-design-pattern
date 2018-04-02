@@ -12,7 +12,6 @@
     "presets": ["es2015", "stage-2"]
   },
   "dependencies": {
-    "@types/jest": "^21.1.9",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^22.4.0",
@@ -20,15 +19,6 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "jest": "^22.4.0",
-    "regenerator-runtime": "^0.11.1",
-    "ts-jest": "^22.0.0",
-    "typescript": "^2.6.2"
-  },
-  "jest": {
-    "transform": {
-      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+    "regenerator-runtime": "^0.11.1"
   }
 }
