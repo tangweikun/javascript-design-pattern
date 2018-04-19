@@ -1,14 +1,18 @@
-const Cat = (function() {
+// 用代理实现单例模式
+
+function Cat() {}
+
+const ProxyCat = (function() {
   let instance
   return function() {
     if (!instance) {
-      instance = this
+      instance = new Cat()
     }
     return instance
   }
 })()
 
 /*============== 测试代码 ===============*/
-const cat1 = new Cat()
-const cat2 = new Cat()
+const cat1 = new ProxyCat()
+const cat2 = new ProxyCat()
 console.log(cat1 === cat2) // true
