@@ -33,6 +33,7 @@
 
 - [Chain of Responsibility](behavioral/chain-of-responsibility/README.md) A way of passing a request between a chain of objects
 - [Command](behavioral/command/README.md) Encapsulate a command request as an object
+- [Interpreter](behavioral/interpreter/README.md) A way to include language elements in a program
 - [Iterator](behavioral/iterator/README.md) Sequentially access the elements of a collection
 - [Mediator](behavioral/mediator/README.md) Defines simplified communication between classes
 - [Memento](behavioral/memento/README.md) Capture and restore an object's internal state
