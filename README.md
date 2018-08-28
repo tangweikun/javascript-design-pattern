@@ -4,6 +4,8 @@
 
 [Javascript Design Pattern](https://www.dofactory.com/javascript/design-patterns)
 
+[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
 ## Types of Design Patterns
 
 - [Creational](#creational)
