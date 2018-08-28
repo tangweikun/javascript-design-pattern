@@ -8,7 +8,7 @@
 
 ### Creational
 
-- [Simple Factory](#simple-factory)
+- [Simple Factory](creational/simple-factory/README.md)
 - [Factory Method](#factory-method)
 - [Abstract Factory](#abstract-factory)
 - [Builder](#builder)
