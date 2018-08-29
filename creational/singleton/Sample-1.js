@@ -1,8 +1,6 @@
-// HELP:
-
 let instance = null
 
-export class Singleton {
+class Singleton {
   static get instance() {
     return instance
   }

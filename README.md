@@ -1,13 +1,5 @@
 # Javascript Design Pattern
 
-## Recommend
-
-[Javascript Design Pattern](https://www.dofactory.com/javascript/design-patterns)
-
-[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-
-[Design Patterns JS](https://github.com/fbeline/Design-Patterns-JS)
-
 ## Types of Design Patterns
 
 - [Creational](#creational)
@@ -46,3 +38,11 @@
 - 💡 [Strategy](behavioral/strategy/README.md) Encapsulates an algorithm inside a class
 - 💢 [State](behavioral/state/README.md) Alter an object's behavior when its state changes
 - 📒 [Template Method](behavioral/template-method/README.md) Defer the exact steps of an algorithm to a subclass
+
+## Recommend
+
+[Javascript Design Pattern](https://www.dofactory.com/javascript/design-patterns)
+
+[Learning JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
+
+[Design Patterns JS](https://github.com/fbeline/Design-Patterns-JS)
