@@ -1,6 +1,6 @@
 // Decorating through prototype
 
-const Book = {}
+var Book = {}
 Book.decorate = function() {
   console.log('Book has pages.')
 }

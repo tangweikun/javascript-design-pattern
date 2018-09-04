@@ -1,5 +1,9 @@
 # Singleton Pattern(单例模式)
 
+## Tips
+
+- 单例模式的核心是确保只有一个实例，并提供全局访问。
+
 ## Example
 
 ### Sample-1

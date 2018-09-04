@@ -16,3 +16,61 @@
 
 - 策略模式会在程序中增加许多策略类或者策略对象
 - 要使用策略模式必须了解所有的 strategy，必须了解各个 strategy 之间的不同点，这样才能选择一个合适的 strategy。此时 strategy 要向客户暴露它的所有实现，这是违反最少知道原则的
+
+## Example
+
+### Simple-1
+
+```js
+// 策略类
+const strategies = {
+  S: function(salary) {
+    return salary * 4
+  },
+  A: function(salary) {
+    return salary * 3
+  },
+  B: function(salary) {
+    return salary * 2
+  },
+}
+
+// 环境类
+const calculateBonus = function(level, salary) {
+  return strategies[level](salary)
+}
+
+console.log(calculateBonus('S', 20000)) // 输 出： 80000
+console.log(calculateBonus('A', 10000)) // 输 出： 30000
+console.log(calculateBonus('B', 8000)) // 输 出： 16000
+```
+
+### Simple-2
+
+```js
+// 策略类
+const strategies = {
+  '+': function(m, n) {
+    return m + n
+  },
+  '-': function(m, n) {
+    return m - n
+  },
+  '*': function(m, n) {
+    return m * n
+  },
+  '/': function(m, n) {
+    return m / n
+  },
+}
+
+// 环境类
+const operation = function(m, n, op) {
+  return strategies[op](m, n)
+}
+
+console.log(operation(5, 6, '+')) // 11
+console.log(operation(5, 6, '-')) // -1
+console.log(operation(5, 6, '*')) // 30
+console.log(operation(2, 5, '/')) // 0.4
+```
